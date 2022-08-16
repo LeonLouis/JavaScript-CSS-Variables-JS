@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript CSS Variable JS</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" href="" />
+</head>
+<body>
+  <main>
+    <div class="main-wrap">
+      <div class="controls">
+        <div class="input-wrap">
+          <label for="base">Color</label>
+          <input id="base" type="color" name="base" value="#BADA55"/>
+        </div>
+        <div class="input-wrap">
+          <label for="size">Size</label>
+          <input id="size" type="range" value="10" min="10" max="50" name="size" data-sizing="px"/>
+        </div>
+        <div class="input-wrap">
+          <label for="blur">Blur</label>
+          <input id="blur" type="range" value="10" min="0" max="25" name="blur" data-sizing="px"/>
+        </div>
+      </div>
+      <div class="img-wrap">
+        <img src="https://cdn.pixabay.com/photo/2021/11/28/15/30/cathedral-6830526_960_720.jpg" alt="Pixabay Image" title="Cathedral" />
+      </div>
+    </div>
+  </main>
+</body>
+<script type="text/javascript" src="./script.js"></script>
+</html>

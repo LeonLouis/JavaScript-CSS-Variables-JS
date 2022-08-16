@@ -1,2 +1,3 @@
 # JavaScript-CSS-Variables-JS
-A JavaScript CSS variable with JavaScript
+ - Day 3 of JavaScript ( Been busy Lately )
+ - A JavaScript CSS variable with JavaScript
